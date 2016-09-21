@@ -1,0 +1,10 @@
+.DS_Store
+storage
+compile-cache
+blob-store
+recovery
+dev
+.apm
+.npm
+.node-gyp
+packages
