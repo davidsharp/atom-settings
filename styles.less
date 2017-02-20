@@ -28,3 +28,65 @@ atom-text-editor::shadow .cursor {
 atom-pane:not(.active) {
   opacity: 1.0;
 }
+
+//.line-number.wrap {
+//  visibility: hidden;
+//}
+
+//.close-icon {
+//  visibility: visible;
+//  width: 18; height:18;
+//  background-color:white;
+//  opacity:0.1;
+//}
+
+//.tab-bar .tab:nth-child(even)::after{//:not(.active) {
+//  position:relative;
+//  z-index:9001;
+//  height:100%;
+//  width:100%;
+//  background-color:rgba(0,0,0,0.6);
+//  //background-color:rgba(12,12,12,0.6);
+//}
+
+#atom-perspective() {
+
+  @viewing-distance: 10in;
+  @rotation: 25deg;
+
+  .tree-view-scroller {
+    transform: /*translateY(-10vh)*/ perspective(@viewing-distance) rotateY(@rotation);
+    padding-top: 0vh;//12vh;
+    padding-bottom: 12vh;
+    transform-origin: left;
+    width: 120%;
+    height: 120%;
+    //text-rendering: geometricPrecision;
+  }
+  body /deep/ atom-text-editor-minimap {
+    transform: perspective(@viewing-distance) rotateY(-@rotation);
+    transform-origin: right;
+  }
+  //.item-views:nth-child(odd){
+  //  transform: perspective(@viewing-distance) rotateY(5);//deg this messing clicking and highlighting
+  //  transform-origin: left;
+  //}
+  //.item-views:nth-child(even){
+  //  transform: perspective(@viewing-distance) rotateY(-5);
+  //  transform-origin: right;
+  //}
+
+}
+
+#atom-perspective;
+
+//html /deep/ .source .comment { //.string
+//  @s: 85%;
+//  @l: 75%;
+//  background: linear-gradient(-45deg,
+//    hsl(0, @s, @l), hsl(60, @s, @l),
+//    hsl(120, @s, @l), hsl(180, @s, @l),
+//    hsl(240, @s, @l), hsl(300, @s, @l), hsl(360, @s, @l));
+//  -webkit-background-clip: text;
+//  -webkit-text-fill-color: transparent;
+//}

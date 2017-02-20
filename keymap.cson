@@ -31,3 +31,4 @@
 'atom-text-editor':
   'cmd-shift-w': 'editor:toggle-soft-wrap'
   'cmd-shift-a': 'autoprefixer'
+  'cmd-shift-.': 'hey-pane:toggle-focus-of-active-pane'

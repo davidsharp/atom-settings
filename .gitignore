@@ -8,3 +8,5 @@ dev
 .npm
 .node-gyp
 packages
+git-time-machine
+split-diff
