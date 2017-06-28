@@ -12,6 +12,11 @@
       jsp: "spyOn(,'')"
       rea: "const FooComponent = props => ()"
       rgx: "//i.test()"
+  "atom-clock":
+    dateFormat: "AH時m分"
+    locale: "ja"
+    showClockIcon: true
+    showTooltip: true
   "atom-minify":
     jsMinifier: "Google Closure Compiler"
   "atom-package-deps":
