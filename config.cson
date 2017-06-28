@@ -493,7 +493,7 @@
       variable: "colorize"
     htmlAngularAngularjs:
       "attribute-name": "colorize"
-      comment: "contrast"
+      comment: "theme"
       constant_numeric: "theme"
       enabled: true
       everythingElse: "theme"
@@ -577,7 +577,7 @@
       variable: "colorize"
     javascriptJsxReact:
       "attribute-name": "colorize"
-      comment: "contrast"
+      comment: "theme"
       constant_numeric: "theme"
       enabled: true
       everythingElse: "theme"
@@ -640,7 +640,7 @@
       variable: "colorize"
     jsonLanguageJson:
       "attribute-name": "colorize"
-      comment: "contrast"
+      comment: "theme"
       constant_numeric: "theme"
       enabled: true
       everythingElse: "theme"
