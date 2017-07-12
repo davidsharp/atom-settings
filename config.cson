@@ -130,7 +130,7 @@
   jsonpp: {}
   linter: {}
   "linter-ui-default":
-    panelHeight: 176
+    panelHeight: 99
   "markdown-preview-plus":
     useGitHubStyle: true
   "mechanical-keyboard-1": {}
