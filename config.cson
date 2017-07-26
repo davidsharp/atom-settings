@@ -107,10 +107,13 @@
   editor:
     fontFamily: "Fira Code"
     fontSize: 10
-    invisibles: {}
+    invisibles:
+      eol: " "
+      space: " "
     lineHeight: 1.25
     scrollPastEnd: true
     showIndentGuide: true
+    showInvisibles: true
     tabType: "soft"
   emmet: {}
   "exception-reporting":
