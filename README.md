@@ -3,4 +3,4 @@
 - Write Node/Bash script to install apm 'dependencies' (Bash is fine, Windows 10 Anniversary Update FTW)
 - Write script to install all font 'dependencies' (Or at least include them here, or prompt to install them)
 
-To write out package lists as JSON: `apm ls | node munge-apm-ls > packages.txt`
+To write out package lists as JSON: `apm ls | node munge-apm-ls > packages.json`
