@@ -89,6 +89,8 @@
       "react"
       "vacuum-tube"
       "sort-by-dot"
+      "github"
+      "plain-2-jasmine"
     ]
     packagesWithKeymapsDisabled: [
       "youtube-pane"
