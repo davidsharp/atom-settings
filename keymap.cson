@@ -26,6 +26,10 @@
 
 'atom-workspace':
   'cmd-ctrl-shift': 'jsformat:format'
+  # Quokka
+  'cmd-k': 'quokka:make-quokka-from-existing-file'
+  'cmd-alt-k': 'quokka:stop-current'
+  'cmd-j': 'quokka:create-javascript-file'
 
 # Soft-wrap toggle
 'atom-text-editor':
