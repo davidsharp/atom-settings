@@ -96,6 +96,9 @@
       "plain-2-jasmine"
       "atom-webbrowser"
       "browser-plus"
+      "angularjs"
+      "atom-ide-ui"
+      "atom-quokka"
     ]
     packagesWithKeymapsDisabled: [
       "youtube-pane"
@@ -139,7 +142,9 @@
     hideOnNoErrors: true
   jsonpp: {}
   linter: {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 99
+    showPanel: true
   "markdown-preview-plus":
     useGitHubStyle: true
   "mechanical-keyboard-1": {}

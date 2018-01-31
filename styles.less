@@ -18,6 +18,19 @@ atom-text-editor {
   //This is for ligatures in fonts with ligatures!
   text-rendering: optimizeLegibility;
 }
+atom-text-editor::shadow {
+  // turn off ligatures in strings and regexes
+  .string.quoted,
+  .string.regexp {
+    -webkit-font-feature-settings: "liga" off, "calt" off;
+  }
+  /*.string.quoted{
+    font-family: 'Balsamiq Sans','Fira Code','monospace';
+    // assumes a font height set as 10px,
+    font-size: 11px;
+    line-height: 10px;
+  }*/
+}
 
 // To style other content in the text editor's shadow DOM, use the ::shadow
 // expression
